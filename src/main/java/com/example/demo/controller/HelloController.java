@@ -16,7 +16,7 @@ public class HelloController {
         return "Halo dari Spring Boot Backend!";
     }
 
-    @GetMapping("/")
+    @GetMapping("/api/test")
     public String test() {
         return "WKWKWKWKWK";
     }
